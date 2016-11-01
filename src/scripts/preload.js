@@ -6,7 +6,9 @@ var {scope,game,craft} = require('./main');
 
 var assets = {
 	images:{
-		phaser:'images/phaser-dude.png'
+		phaser:'images/phaser-dude.png',
+		tick:'images/tick.png',
+		letO:'images/o_letter.png',
 	},
 	sprites:{},
 	audio:{},

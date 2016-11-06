@@ -17,7 +17,9 @@ module.exports = function(){
 
 	state.create = function(){
 		require('./game/layers');
-		require('./game/test');
+		require('./game/zombie');
+		require('./game/gun');
+		require('./game/controler');
 	}
 
 	return state;
